@@ -1,0 +1,39 @@
+body {
+  background-color: #d4e4ec;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+  height: 47vh;
+  width: 28vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+
+.content {
+  text-align: center;
+  /* padding: 25px; */
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.content p {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.container img {
+  border-radius: 15px;
+  height: 27vh;
+  width: 26vh;
+  margin: 1vh;
+}
